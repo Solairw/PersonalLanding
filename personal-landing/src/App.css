@@ -1,0 +1,28 @@
+
+body {
+  font-family: "Cascadia Code";
+  background-color: rgb(25, 53, 73);
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+#name {
+  font-size: 2rem;
+  color:rgb(255,198,0);
+}
+
+#main-view {
+  border-width:1;
+  border-color: rgb(255,198,0);
+  border-style: solid;
+  border-radius: 10px;
+  width: 400px;
+  height: 150px;
+  padding: 20px;
+  color: aliceblue;
+}

@@ -10,10 +10,12 @@ const diffDays = Math.round(Math.abs((now - applyDayDate) / oneDay));
 function App() {
   return (
     <>
-      <div id="main-view">
-        <h1 id="name">Валерий Гончаров</h1>
-        <span className="detailsBlock">Разработчик C#, Владивосток</span>
-        <span className="detailsBlock">Работаю в DNS {diffDays} {GetWord(diffDays)}</span>
+      <div className="m-auto">
+        <div id="main-view">
+          <h1 id="name">Валерий Гончаров</h1>
+          <span className="detailsBlock">Разработчик C#, Владивосток</span>
+          <span className="detailsBlock">Работаю в DNS {diffDays} {GetWord(diffDays)}</span>
+        </div>
       </div>
     </>
   )
